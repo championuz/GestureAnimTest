@@ -1,16 +1,14 @@
 import React from 'react';
 import {
   SafeAreaView,
-  ScrollView,
   Image,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
 
-class App extends React.Component {
-  render () {
+const App = () => {
+  
   return (
     <SafeAreaView
     style={styles.sectionContainer}>
@@ -26,7 +24,6 @@ class App extends React.Component {
     );
 };
 };
-
 export default App;
 
 const styles = StyleSheet.create({
