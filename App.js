@@ -31,14 +31,19 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f0f3f5'
   },
   container: {
     width: 315,
     height: 450,
     borderRadius: 14,
-    borderWidth: 1,
-    borderColor: '#000',
+    elevation: 33,
+    shadowOffset: {width: 1, height: 1},
+    backgroundColor: "#fff",
+    shadowColor: "blue",
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    marginHorizontal: 4,
+    marginVertical: 6,
   },
   cover: {
     paddingVertical: 10,
