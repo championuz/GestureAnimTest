@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  SafeAreaView,
   Image,
   StyleSheet,
   Text,
@@ -10,7 +9,7 @@ import {
 const App = () => {
   
   return (
-    <SafeAreaView
+    <View
     style={styles.sectionContainer}>
       <View style={styles.container}>
         <Image style={styles.Image} source={{uri: 'https://uxmag.com/wp-content/uploads/2014/12/gestures-and-animations-small.jpg'}} />
@@ -20,7 +19,7 @@ const App = () => {
         <Image style={styles.icon} source={require('./image/heartemp32.png')} />
       </View>
       </View>
-    </SafeAreaView>
+    </View>
     );
 };
 };
